@@ -5,6 +5,8 @@ $(document).ready(function(){
 		padding:20,
 		nowrap:true,
 	});
-
 });
 
+ $(document).ready(function() {
+    $('select').material_select();
+  });
