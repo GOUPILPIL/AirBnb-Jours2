@@ -1,0 +1,27 @@
+/* VARIABLE */
+/* CODE */
+* {
+  font-family: "Varela Round", sans-serif; }
+
+.navigation-bar {
+  background-color: #fff; }
+  .navigation-bar .nav-wrapper {
+    border: transparent; }
+    .navigation-bar .nav-wrapper img {
+      height: 60px;
+      width: 80px; }
+    .navigation-bar .nav-wrapper ul {
+      margin-right: 20px; }
+      .navigation-bar .nav-wrapper ul a {
+        color: #484848; }
+      .navigation-bar .nav-wrapper ul:hover {
+        background-color: inherit; }
+
+.main .main__header h1 {
+  color: #FF5A5F;
+  font-size: 48px; }
+.main .main__header h2 {
+  color: #484848;
+  font-size: 48px; }
+
+/*# sourceMappingURL=style.css.map */
