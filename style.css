@@ -1,0 +1,13 @@
+.carousel .carousel-item {
+  opacity: 1 !important;
+}
+.imgcls{
+	max-width: 100%;
+	height: auto;
+}
+.boldngrey{
+	color: #767676;
+}
+.bold{
+	font-weight: bold;
+}
