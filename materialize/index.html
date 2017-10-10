@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/init.js"></script>
+
+
+
+    <div class="container">
+
+       <div class="row">
+
+    <form class="col s12">
+      <div class="row">
+
+        <div class="col s4" style="border-style: solid; border-width: 1px; border-color: #C8D8DE;">
+        <div class="input-field col s4">
+          <input placeholder="Partout" id="Où" type="text" class="validate">
+          <label for="Où">Où ?</label>
+        </div>
+      </div>
+
+       <div class="col s4" style="border-style: solid; border-width: 1px; border-color: #C8D8DE;">
+       <div class="input-field col s4">
+          <input type="text" class="datepicker">
+          <label for="Quand">Quand ?</label>
+        </div>
+      </div>
+
+
+      <div class="col s4" style="border-style: solid; border-width: 1px;border-color: #C8D8DE; height: 83px;">
+         <div class="input-field col s6">
+            <a class='dropdown-button btn' href='#' data-activates='dropdown1' style="border-radius: 7%;">Invités</a>    
+                 <ul id='dropdown1' class='dropdown-content' style="min-width:300px; padding:20px;">
+                     <li><p>Adultes</p></li>
+                     <li><p>Enfants</p></li>
+                     <li><p>Bébés</p></li>
+                     <li><p>Annuler</p></li>
+                 </ul>
+         </div>
+        <div class="col s6" style="padding:15px;">
+          <button class="btn waves-effect waves-light" type="submit" name="action" style="background-color: #fd5c63;border-radius: 6%;">Rechercher<i class="material-icons right">send</i></button>
+        </div>
+      </div>
+    </div>
+
+    </form>
+    </div>
+
+
+  <div class="row">
+    <div class="col s5">
+      <ul class="tabs">
+        <li class="tab col s3"><a href="#test1"><p style="font-size: 11px; color:#30BA81;">RECOMMANDÉ</p></a></li>
+        <li class="tab col s3"><a href="#test2"><p style="font-size: 11px; color:#30BA81;"">LOGEMENTS</p></a></li>
+        <li class="tab col s3"><a href="#test3"><p style="font-size: 11px; color:#30BA81;"">EXPÉRIENCES</p></a></li>
+        <li class="tab col s3"><a href="#test4"><p style="font-size: 11px; color:#30BA81;"">RESTAURANTS</p></a></li>
+        <div class="indicator green" style="z-index:1"></div>
+      </ul>
+    </div>
+    <div id="test1" class="col s12"></div>
+    <div id="test2" class="col s12"></div>
+    <div id="test3" class="col s12"></div>
+    <div id="test4" class="col s12"></div>
+  </div>
+
+  </div>
+
+    </body>
+  </html>
